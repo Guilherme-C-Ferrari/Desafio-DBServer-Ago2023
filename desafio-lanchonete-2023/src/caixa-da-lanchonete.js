@@ -1,6 +1,6 @@
 class CaixaDaLanchonete {
 
-    // Método usado para calcular o valo da compra
+    // Método usado para calcular o valor da compra
     calcularValorDaCompra(metodoDePagamento, itens) {
 
         let codigoDoItem = ""; // Armazena o código de cada item
