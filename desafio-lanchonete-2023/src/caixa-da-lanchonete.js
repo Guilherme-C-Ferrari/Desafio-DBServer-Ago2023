@@ -124,28 +124,20 @@ class CaixaDaLanchonete {
         switch (codigoDoItem) {
             case "cafe":
                 return 3.00;
-                break;
             case "chantily":
                 return 1.50;
-                break;
             case "suco":
                 return 6.20;
-                break;
             case "sanduiche":
                 return 6.50;
-                break;
             case "queijo":
                 return 2;
-                break;
             case "salgado":
                 return 7.25;
-                break;
             case "combo1":
                 return 9.50;
-                break;
             case "combo2":
                 return 7.50;
-                break;
             default:
                 return false;
         }
